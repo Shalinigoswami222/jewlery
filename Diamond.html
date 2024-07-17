@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	 
+	 <!-- Font awsome link -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- css -->
+ <link rel="stylesheet" href="style.css">
+
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet"/>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+	  <title>JewelleryShop</title>
+
+<style>
+#cd h2{
+  position:absolute;
+  top: -5px;
+  left: 40px;
+  color: maroon;
+  font-weight: 800;
+  content: '';
+  
+
+}
+
+#cd  button{
+  position: absolute;
+  width: 20%;
+  top: 220px;
+  left: 50px;
+  content: '';
+  padding: 10px;
+  background-color:navy;
+ 
+}
+
+#cd button a{
+  text-decoration: none;
+  
+  color: white;
+
+}
+
+#cd img{
+  border: 4px solid black;
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+   <body>
+ <!-- navbar start -->
+ <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="#"><img src="image/l2.jpg" width="60px"></a>
+      <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light fw-bold fs-5" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-semibold fs-5" href="#">Gold</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-semibold fs-5" href="Silver.html">Siver</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-semibold fs-5" href="#">Diamond</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-semibold fs-5" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-semibold fs-5" href="#">About Us</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+          &emsp; <a href=""> <i class="fa-solid fa-cart-shopping fs-2 text-danger mt-2" ></i></a>
+        </form>
+      </div>
+    </div>
+  </nav>
+	<!-- Navbar End -->
+
+     <!-- Carousel Start -->
+
+     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/q2.png" class="d-block w-100" height="400px" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/q3.png" class="d-block w-100" height="400px"  alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/brand4.jpeg" class="d-block w-100" height="400px"  alt="...">
+        </div>
+
+        <div class="carousel-item">
+            <img src="image/c4.png" class="d-block w-100" height="400px"  alt="...">
+          </div>
+
+        
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <i><p class="my-2 fs-2 fw-bold text-center bg-dark p-2 texcol"><span class="text-light">Dia</span>mond<span class="text-light">P</span>roducts -</p></i>
+
+<div class="row w-100 my-3 mt-5 mx-auto">
+ <div class="col-lg-2 col-12  my-2">
+
+<p class="fw-semibold my-3  ">Filter &emsp;  &emsp;   &emsp;   &emsp;  &emsp;   <span class="text-danger">Clear All</span></p>
+<ul class="list-group">
+ <li class="list-group-item-border-0 fs-4 fw-bold " id="actives" aria-controls="true">Price</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true"><i class="fa-solid fa-indian-rupee-sign"></i>5,001- <i class="fa-solid fa-indian-rupee-sign"></i>10,001</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true"><i class="fa-solid fa-indian-rupee-sign"></i>20,001- <i class="fa-solid fa-indian-rupee-sign"></i>30,000</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true"><i class="fa-solid fa-indian-rupee-sign"></i>40,001- <i class="fa-solid fa-indian-rupee-sign"></i>50,000</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true"><i class="fa-solid fa-indian-rupee-sign"></i>60,001- <i class="fa-solid fa-indian-rupee-sign"></i>75,001</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true"><i class="fa-solid fa-indian-rupee-sign"></i>80,001- <i class="fa-solid fa-indian-rupee-sign"></i>1,00000</li><br>
+
+<!-- products -->
+
+
+
+<li class="list-group-item-border-0 fs-4 fw-bold " id="actives" aria-controls="true">Products</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Earring &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(15050)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Necklace &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(5000)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Ring &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(11000)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Chain &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(4000)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Bengal&emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(70000)</span></li><br>
+
+
+
+<!-- Range -->
+
+<li class="list-group-item-border-0 fs-4 fw-bold " id="actives" aria-controls="true">Weight Range</li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">0g-3g &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(2500)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Necklace &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(5000)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Ring &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(11000)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Chain &emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(4000)</span></li><br>
+<li class="list-group-item-border-0" id="actives" aria-controls="true">Bengal&emsp; <i class="fa-solid fa-indian-rupee-sign"></i><span class="text-danger">(70000)</span></li><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+</div>
+
+<div class="col-lg-10 col-12 my-2">
+
+  <div class="row my-2 mx-auto">
+    
+   <div class="col-lg-3 col-md-4 col-12 my-2">
+    <div data-aos="zoom-in-up" data-aos-duration="500">
+       <div class="card  h-100"  id="textdetail"  >
+ <img src="image/d1.jpeg" height="200px" class="card-img-top" alt="">
+ <div class="card-body">
+ <h4 class="my-1 fw-bold">Diamond Ring</h4>
+ <p>Weight: 3.5g</p>
+ <p>carrat: 22</p>
+ <a href="#" class="btn" id="see">Buy Now</a>
+ <a href="#enquiry"  class="btn" id="buy">Show More</a>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- 2nd -->
+
+
+<div class="col-lg-3 col-md-4 col-12 my-2">
+  <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/d2.webp" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold">Bracelet</h4>
+<p>Weight: 5.5g</p>
+<p>carrat: 24</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- 3rd -->
+
+<div class="col-lg-3 col-md-4 col-12 my-2">
+  <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/d4.jpeg" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold"> Ring</h4>
+<p>Weight: 6.5g</p>
+<p>carrat: 22</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- 4th -->
+<div class="col-lg-3 col-md-4 col-12 my-2">
+  <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/dianec.jpeg" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold">Necklace</h4>
+<p>Weight: 3.5g</p>
+<p>carrat: 22</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- 5th -->
+
+<div class="col-lg-3 col-md-4 col-12 my-2">
+  <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/diaear.jpeg" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold">Diamond Earring</h4>
+<p>Weight: 3.5g</p>
+<p>carrat: 22</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 6th -->
+<div class="col-lg-3 col-md-4 col-12 my-2">
+  <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/diatop.jpeg" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold"> Earring</h4>
+<p>Weight: 3.5g</p>
+<p>carrat: 22</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- 7th -->
+
+<div class="col-lg-3 col-md-4 col-12 my-2">
+    <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/diabang.jpeg" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold"> Diamond Kada</h4>
+<p>Weight: 3.5g</p>
+<p>carrat: 22</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- 8th -->
+
+<div class="col-lg-3 col-md-4 col-12 my-2">
+  <div data-aos="zoom-in-up" data-aos-duration="500">
+  <div class="card  h-100"  id="textdetail"  >
+<img src="image/neck2.jpeg" height="200px" class="card-img-top" alt="">
+<div class="card-body">
+<h4 class="my-1 fw-bold"> Fancy Necklace </h4>
+<p>Weight: 3.5g</p>
+<p>carrat: 22</p>
+<a href="#" class="btn" id="see">Buy Now</a>
+<a href="#enquiry"  class="btn" id="buy">Show More</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+</div> 
+
+
+
+
+  </div>
+</div>
+
+
+
+
+ </div> 
+
+
+
+<!-- differnt Part -->
+
+<!-- moving img -->
+<section id="move">
+  <div  class="main w-100">
+   <div class="container">
+ 
+     <div class="row">
+       <div class="col-md-12 col-12 col-lg-6 mt-2">
+         <div class="card border-0 text-center">
+   <!-- card with crousel -->
+
+ <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-inner">
+     <div class="carousel-item active mt-5">
+       <img src="image/d1.jpeg" class="d-block w-100" height="480px" alt="...">
+     </div>
+      <div class="carousel-item">
+       <img src="image/diabang.jpeg" class="d-block w-100" height="480px" alt="...">
+     </div>
+     <div class="carousel-item">
+       <img src="image/neck3.jpg" class="d-block w-100" height="480px" alt="...">
+     </div>
+   </div>
+   </div>
+   </div>
+   </div>
+     
+   <div class="col-md-12 col-lg-6 col-12 mt-5">
+    <p class="text-center justify-content justify pr mt-2"> 
+I started ETC with the hopes of pairing my meticulous attention to detail with my love of travel to help my clients create seamless, memorable trips. I love introducing clients to exclusive experiences or destinations that they may not have otherwise considered or be able to plan on their own.<br><br><br>
+         <br>
+         A few of my favorite travel memories include a sunrise safari in Zimbabwe, New Year’s brunch aboard a catamaran in the British Virgin Islands, and snow-skiing in Japan. I especially love exploring the culinary scene in any destination I visit, so be sure to reach out for restaurant recommendations!<br><br><br>
+<br>When not traveling to scope out the best destinations for my clients, I’m based in Tampa, FL, where I love to spend my free time rollerblading, boating, and relaxing at the beach.</p>
+  
+
+
+
+</div>
+ </div>
+
+
+
+</div>
+
+ </div>
+
+</div>
+
+
+ 
+ 
+ </section>
+
+
+
+<!-- others -->
+
+
+
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="card  border-0" id="cd">
+
+      <img src="image/ssdddmng.png"alt="" height="350px" class="card-img-top cardimg w-100">
+
+
+     
+
+      <!-- <button type="button" class="text-center"> <a href="">
+        Schedule my Cunsulation Call</a>
+      </button> -->
+
+
+      </div>
+      
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+
+
+<section id="footer">
+
+  <div class="row w-100 mx-auto my-3 foot" >
+   
+
+    <div class=" col-lg-4 col-md-4 col-sm-12 text-center">
+
+<p class="text-center fw-bold fs-2 mt-5">ASCELLA JEWELLERY SHOP</p>
+
+<i class="fa-brands fa-google-pay fw-bold fs-3 "    ></i>&nbsp;&nbsp;
+<i class="fa-brands fa-cc-paypal  fw-bold fs-3 "    ></i>&nbsp;&nbsp;
+<i class="fa-brands fa-amazon-pay  fw-bold fs-3 "      ></i>&nbsp;&nbsp;
+<i class="fa-brands fa-cc-apple-pay  fw-bold fs-3 " ></i>&nbsp;&nbsp;
+ </div>
+
+
+
+
+
+    <!-- 2nd -->
+    <div class=" col-lg-4 col-md-4 col-sm-12 text-center">
+
+      <p class="text-center fw-bold fs-2 mt-5">General</p>
+    <p>Shipping <br>
+      Order Status <br>
+      Exchange & Return Policy <br>
+      Jewellery Care
+       <br>
+       Service <br>
+       Warranty <br>
+      FAQ
+
+    </p>
+   
+       </div>
+       <!-- 3rd -->
+
+
+       <div class=" col-lg-4 col-md-4 col-sm-12 text-center">
+
+        <p class="text-center fw-bold fs-2 mt-5">Categories</p>
+        <p>New In <br>
+          Earring <br>
+         Ring <br>
+          Necklace <br>
+          Ankle <br>
+          Bracelet <br>
+          All Jewellery
+    
+        </p>
+         </div>
+
+
+  
+  </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    
+<!-- aos -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+       </script>
+       </body>
+       </html>

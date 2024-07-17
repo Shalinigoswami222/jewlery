@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texcol{
+    color:goldenrod;
+}
+
+#see{
+    background-color:  #34495E;
+    color: aquamarine;
+}
+#buy{
+    background-color: aquamarine;
+    color: black;
+}
+
+#sil{
+    color: silver;
+    font-weight: 900;
+}
+
+.dia{
+    color:#b7bfe8c1;
+}
+
+#lts a{
+    color: #02192f;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 3s;
+    text-align: center;
+}
+
+
+#lts a:hover{
+ 
+   text-shadow: 4px 2px 2px blue;
+   text-align: center;
+
+}
+
+
+
+
+
+
+.head{
+    position: fixed;
+    width: 100%;
+}
+.head p{
+    width:100%;
+    background-color: yellow;
+   
+    padding: 10px;
+    height: 80px;
+ font-size: 30px;
+ font-weight: 800;
+ 
+
+}
+
+
+
+#bts{
+
+    padding: 6px;
+    width: 72%;
+}
+
+
+#bts::placeholder{
+    font-weight: 600;
+    color: blueviolet;
+    text-align: center;
+}
+
+/* #active:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    width: 75%;
+ 
+} */
+
+
+#actives:hover{
+    background-color: cadetblue;
+   padding: 4px;
+   
+    width: 100%;
+  
+}
+
+
+#sub{
+   
+    height: 42px;
+    background-color: blueviolet;
+    color: #02192f;
+    font-weight: 900;
+}
+input{
+    outline: 2px solid black;
+}
+
+
+.foot{
+
+    background-color: rgb(246, 223, 194);
+}
+
+
+
+
+
+
+ .imgs img{
+
+    border-radius: 50%;
+  
+    text-align: center;
+    
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animation of silver file */
+
+
+
+
+.sst{
+ animation-iteration-count:infinite;
+ animation-duration: 3s;
+ animation-name:ducat;
+ animation-delay: 3s;
+
+}
+
+
+
+@keyframes ducat{
+ 0%
+ {
+padding-left: 60%;
+box-shadow: 2px 2px 2px 2px rgb(224, 2, 2);
+ }
+
+
+}
+
+
+
+
+.ss{
+    color: blueviolet;
+    font-weight: 700;
+  animation-name: sub;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+@keyframes sub{
+
+0%{
+    margin-left: 250px;
+    color: #02192f;
+font-weight: 700;
+
+
+
+}
+
+50%{
+    margin-right: 200px;
+    color: maroon;
+}
+
+}
